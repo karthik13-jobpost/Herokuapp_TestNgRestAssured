@@ -1,0 +1,5 @@
+Execute,URI,requestMethod,JSONData1,JSONData2,JSONData3,expectedRespCode
+Y,auth/gentoken,POST,key|sample2025,email|sample2025@sample2025.com,returnKey|true,200
+Y,auth/user/register,POST,username|sample2025,password|P@ssw0rd,,200
+Y,v1/user,POST,username|sample2025,score|0,,201
+Y,v1/user,PUT,username|sample2025,score|0,,204
