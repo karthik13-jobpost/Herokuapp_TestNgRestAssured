@@ -3,10 +3,10 @@ Instruction to Run
 2. Modify the default value "sample2025" using replaceAll with anydifferent value
 3. 
 
-Note 
+Note - Things yet to be done
 -Currently the script can handle only pull and put requests.
 -Things yet to be done - handle requests query param, update custom reports
-
+-Hard coded csv path in DataProvider.java line 54 should be updated (It should be changed before running) - To be set as environment variable during CI/CD pipeline setup
 
 CSV Description (Runner File)
 
